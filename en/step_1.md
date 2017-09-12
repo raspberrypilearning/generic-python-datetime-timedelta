@@ -15,7 +15,7 @@ You can use the datetime module to calculate differences in two times.
 datetime.timedelta(0, 6, 843882)
 ```
 
-- This tells me how many days, seconds and microseconds it took to to type that third line.
+- This is a `timedelta` object. It tells you how many days, seconds and microseconds it took to to type that third line.
 
 - To extract out the days, seconds or milliseconds, you can do the following.
 

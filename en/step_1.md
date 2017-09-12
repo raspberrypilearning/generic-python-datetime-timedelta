@@ -1,19 +1,31 @@
-## Introduction
+You can use the datetime module to calculate differences in two times.
 
-Add project description here. What will learners be making?
+- This is easiest to demonstrate in a Python shell rather than using a script.
 
-### What you will make
+```python
+>>> from datetime import datetime
+>>> t1 = datetime.now()
+>>> t2 = datetime.now()
+>>> t2 - t1
+```
 
-Add something here to showcase here, for example:
+- Depending on how quickly you could type the `t2 = datetime.now()` command, you should see something like this:
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+```python
+datetime.timedelta(0, 6, 843882)
+```
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+- This tells me how many days, seconds and microseconds it took to to type that third line.
 
-### What you will learn
+- To extract out the days, seconds or milliseconds, you can do the following.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+```python
+>>> dt = t2 - 21
+>>> dt.days
+0
+>>> dt.seconds
+6
+>>> dt.microseconds
+843822
+```
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)

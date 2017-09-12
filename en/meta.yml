@@ -1,17 +1,16 @@
-title: generic-python-datetime-timedelta
+title: Using timedelta in Python
 hero_image: images/banner.png
-description: generic-python-datetime-timedelta description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+description: Calcualte time differences with timedelta
+original_url: 
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 # possible values: 1, 2 or 3
 listed: false
-ingredient: false
+ingredient: true
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: "animals, jokes/pranks, space, photography, music/sound, physical computing, games, robots, geography"
-technologies: "electronics, sense-hat, physical computing, html/css, scratch, python"
+interests: 
+technologies: "python"
 site_areas:
 steps:
-  - title: Introduction
-  - title: What you will need
-  - title: Step title
+  - title: timedelta
+
